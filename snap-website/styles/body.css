@@ -2,9 +2,9 @@
   width: 100%;
   height: calc(100vh - 90px);
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap-reverse;
 }
 
 .container-data {
@@ -13,8 +13,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.container-main-data {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   flex-direction: column;
-  gap: 4rem;
+  gap: 3rem;
+  margin-left: 15rem;
 }
 
 .title-data-container {
@@ -25,7 +32,7 @@
 .data-container {
   color: rgba(0, 0, 0, 0.4);
   line-height: 1.8rem;
-  width: 50%;
+  width: 60%;
 }
 
 .link-learn-more {
