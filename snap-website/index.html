@@ -24,23 +24,57 @@
       </div>
 
       <div class="container-button-relation-account">
-        <a href="#" class="btn-relation-account">Login</a>
-        <a href="#" class="btn-relation-account register">Register</a>
+        <a
+          href="#"
+          class="btn-relation-account"
+          onclick="redirectUser('pages/login/index.html')"
+          >Login</a
+        >
+        <a
+          href="#"
+          class="btn-relation-account register"
+          onclick="redirectUser('pages/register/index.html')"
+          >Register</a
+        >
       </div>
     </header>
 
     <section class="container-data-and-image">
       <div class="container-data">
-        <h1>Make remote work</h1>
+        <h1 class="title-data-container">Make remote work</h1>
 
-        <p>
+        <p class="data-container">
           Get your team in sync, no matter your location Streamline processes,
-          create team rituals, and watch productivity soar
+          create team rituals, and watch productivity soar.
         </p>
 
-        <a href="link-learn-more">Learn more</a>
+        <a href="#" class="link-learn-more">Learn more</a>
 
-        <div class="container-customers"></div>
+        <div class="container-customers">
+          <img
+            src="public/client-databiz.svg"
+            alt="customer-img"
+            class="customer-img"
+          />
+
+          <img
+            src="public/client-audiophile.svg"
+            alt="customer-img"
+            class="customer-img"
+          />
+
+          <img
+            src="public/client-meet.svg"
+            alt="customer-img"
+            class="customer-img"
+          />
+
+          <img
+            src="public/client-maker.svg"
+            alt="customer-img"
+            class="customer-img"
+          />
+        </div>
       </div>
 
       <div class="container-background">
@@ -51,5 +85,8 @@
         />
       </div>
     </section>
+
+    <script src="js/link.js"></script>
+    i
   </body>
 </html>
